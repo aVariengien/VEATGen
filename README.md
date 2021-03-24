@@ -1,2 +1,23 @@
+
 # VEATGen
-A Variational Autoencoder for Texture Generation
+### A Variational Autoencoder for Texture Generation
+###### By Alexandre Variengien
+
+![VEATGen image space](https://github.com/aVariengien/VEATGen/blob/main/results_images/honey_grid1.png "VEATGen image space")
+
+## Description
+
+I trained VAEs on 3 datasets extracted from the [Describable Textures Dataset (DTD)](https://www.robots.ox.ac.uk/~vgg/data/dtd/).
+ * Two 50x50 images datasets: `cracked` (43 images from the `cracked` category of the DTD) and `honey` (30 images from the `honeycombed` category)
+ * One 100x100 images dataset: `honey-large` (30 images, same as the `honey`)
+
+Explore the latent space of these pretrained VAE using an intuitive GUI ! 
+
+Read the `report.pdf` file to learn more about this project.
+
+## Environment
+
+This project was developed in Python 3. The GUI uses matplotlib interactive features. 
+    
+For the VAE, I used the keras (v. 2.3 running on tensorflow) 
+implementation that can be found [here](https://keras.io/examples/generative/vae/). 
