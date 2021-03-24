@@ -17,7 +17,7 @@ Read the `report.pdf` file to learn more about this project.
 
 ## Environment
 
-This project was developed in Python 3. The GUI uses matplotlib interactive features. 
+This project was developed in Python 3. The GUI uses matplotlib interactive features and sklearn to compute PCA. 
     
 For the VAE, I used the keras (v. 2.3 or higher, running on tensorflow).
 The original VAE implementation used can be found [here](https://keras.io/examples/generative/vae/). 
