@@ -3,7 +3,7 @@
 ### Variational Autoencoder for Texture Generation
 ###### By Alexandre Variengien
 
-![VEATGen image space](https://github.com/aVariengien/VEATGen/blob/main/results_images/honey_grid1.png "VEATGen image space")
+<img src="https://github.com/aVariengien/VEATGen/blob/main/results_images/honey_grid1.png" alt="VEATGen image space" width="500"/>
 
 ## Description
 
